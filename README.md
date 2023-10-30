@@ -4,6 +4,6 @@ This code, written using Python programming, is for optimizing a Random Forest r
 
 Citation:
 
-Merchant, M. & McBlane, L. (2024). Using Explainable AI (XAI) to Assess the Potential of Satellite Remote Sensing for Estimating Active Layer Thickness (ALT). IEEE Mediterranean and Middle-East Geoscience and Remote Sensing Symposium (M2GARSS).
+Merchant, M. & McBlane, L. (In Review). Using Explainable AI (XAI) to Assess the Potential of Satellite Remote Sensing for Estimating Active Layer Thickness (ALT). IEEE Mediterranean and Middle-East Geoscience and Remote Sensing Symposium (M2GARSS).
 
 ![SHAP_Plots](https://github.com/RemoteSenseiMichael/Python_Code_Shapley_XAI_Regression/assets/83989128/797e588f-7821-4195-9cee-45f95059f622)
