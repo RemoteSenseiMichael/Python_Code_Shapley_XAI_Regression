@@ -56,7 +56,7 @@ print("Best Hyperparameters:", best_params)
 print("Best R-squared (R²):", best_r2)
 
 # Use the Shapley Explainer function to analyze your optimzed Random Forest model.
-explainer = shap.Explainer(best_rf_model, X)
+explainer = shap.Explainer(best_rf_model, X, check_additivity=False)
 
 # Use this to randomly sample 2000 samples and create shap values for them.
 num_samples = 2000
@@ -64,7 +64,7 @@ random_sample_indices = np.random.choice(X.index, num_samples, replace=False)
 random_samples = X.loc[random_sample_indices]
 
 # See (view) the Shap summary plot:
-shap_values = explainer(random_samples)
+shap_values = explainer(random_samples, , check_additivity=False)
 
 # Export the summary plot. In this case, only show the top 30 most important variables.
 plt.figure()
